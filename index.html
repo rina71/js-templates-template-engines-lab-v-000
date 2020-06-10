@@ -15,5 +15,12 @@
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script>mocha.setup('bdd');</script>
     <script src="test/index-test.js"></script>
+    <footer> posted by Chuck Wooden</footer>
+    <form onsubmit="createPost();return false;">
+      Name: <input type="text" id="commenterName"><br>
+      Comment: <input type="text" id="commentText"><br>
+      <input type="submit">
+    </form>
+      <div id="comments"></div>
   </body>
 </html>
